@@ -3,8 +3,8 @@ Tools for quickly launching a Hugo site on Github pages
 
 ## Usage
 Before using `startup.sh` or `startup_username-github-io.sh`, make sure you have
- - a Github repository named <yourusername>.github.io AND one named <yourusername>.github.io-dev, OR
- - a Github repository named <yourproject> AND one named <yourproject>-dev
+ - a Github repository named \<yourusername\>.github.io AND one named <yourusername>.github.io-dev, OR
+ - a Github repository named \<yourproject\> AND one named \<yourproject\>-dev
  - ensure that the one without the -dev suffix is NOT empty. A good way to do this is to initialize the repo with a ReadMe
 
 Once you have done this, you can edit the `startup.sh` or `startup_username-github-io.sh` (pick according to how you named your repositories) with your GitHub username and (for `startup.sh`) your project/site name.
