@@ -3,8 +3,8 @@ set -e
 
 #Set these yourself
 
-SITE_REPOSITORY_NAME="<SITENAME>"
-USERNAME="<USERNAME>"
+SITE_REPOSITORY_NAME="hugotest"
+USERNAME="dylancromer"
 
 #Uncomment and set if you want to add a theme automatically (Must also uncomment the git submodule add command)
 
@@ -30,7 +30,7 @@ cp ../hugolaunch/deploy.sh $SITE_REPOSITORY_NAME
 cd $SITE_REPOSITORY_NAME
 git init && git remote add origin $DEV_REPOSITORY
 
-git submodule add -b master git@github.com:$USERNAME/$SITE_REPOSITORY_NAME public
+git submodule add -b master github.com/$USERNAME/$SITE_REPOSITORY_NAME public
 
 #Uncomment if you want to add a theme automatically
 
