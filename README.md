@@ -1,5 +1,5 @@
 # hugolaunch
-Tools for quickly launching a Hugo site on Github pages
+Tools for quickly launching a Hugo site on Github pages, made for a symposium workshop
 
 ## Usage
 Before using `startup.sh` or `startup_username-github-io.sh`, make sure you have
